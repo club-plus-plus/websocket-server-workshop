@@ -89,3 +89,11 @@ void broadcastMessage(const string& messageType, const Json::Value& arguments)
     }
 }
 ```
+
+We can also provide access to the size of the list, so that other code can determine the number of currently open connections:
+
+```
+size_t numConnections() {
+	return this->openConnections.size();
+}
+```

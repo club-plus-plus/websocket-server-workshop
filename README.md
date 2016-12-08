@@ -18,3 +18,4 @@ The workshop is broken down into a series of parts:
 - [Part 2: Adding JSON support for structured messages](./Part2.md)
 - [Part 3: Initiating messages from the server](./Part3.md)
 - [Part 4: Multiple threads and event loops](./Part4.md)
+- [Part 5: Avoiding race conditions](./Part5.md)
